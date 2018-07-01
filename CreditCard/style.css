@@ -90,12 +90,12 @@ body{
 }
 
 .text_area_name {
-  background: #fff url("https://i.imgbox.com/2ogTBbum.png") no-repeat 246px 9px;
+  background: #fff url("img/icon1.png") no-repeat 246px 9px;
   padding: 3px 3px 3px 13px;
 }
 
 .text_area_cardn {
-  background: #fff url("https://i.imgbox.com/XDIphUJr.png") no-repeat 244px 11px;
+  background: #fff url("img/icon2.png") no-repeat 244px 11px;
   padding: 3px 3px 3px 13px;
 }
 
@@ -107,7 +107,7 @@ body{
   margin-bottom: 12px;
   border-radius: 10px;
   border: solid 1px #d1d1d1;
-  background: #fff url("https://i.imgbox.com/DTkXs6SF.png") no-repeat 13px 11px;
+  background: #fff url("img/CVC+3.png") no-repeat 13px 11px;
   padding: 3px 3px 3px 49px;
 }
 
@@ -166,20 +166,19 @@ body{
   display: inline-block;
   right: 0%;
   bottom: -3%;
-  broder: solid 1px #000;
   border-radius: 50px;
   width: 40px;
   height: 40px;
   transition-duration: 0.2s;
   cursor: pointer;
-  background: #ff954d url("https://i.imgbox.com/YqqJAfEY.png") no-repeat 10px 13px;
+  background: #ff954d url("img/check.png") no-repeat 10px 13px;
 }
 
 .check:hover {
   bottom: -1%;
-  background: #ff954d url("https://i.imgbox.com/YqqJAfEY.png") no-repeat 10px 13px;
+  background: #ff954d url("img/check.png") no-repeat 10px 13px;
 }
 
 .check:active {
-  background: #f4741d url("https://i.imgbox.com/YqqJAfEY.png") no-repeat 10px 13px;
+  background: #f4741d url("img/check.png") no-repeat 10px 13px;
 }
