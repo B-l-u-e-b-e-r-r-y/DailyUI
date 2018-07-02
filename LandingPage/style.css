@@ -27,7 +27,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
 
 header.jumbotron {
   text-align: center;
-  background-image: url(https://images2.imgbox.com/d9/f2/Iqln6SGa_o.jpg);
+  background-image: url(img/background.jpg);
   background-size: cover;
   background-attachment: fixed;
   margin-bottom: 0px;
@@ -90,7 +90,7 @@ header.jumbotron .iphone {
   right: 0px;
   height: 900px;
   width: 100%;
-  background-image: url(https://images2.imgbox.com/6a/54/0sa5qJdV_o.png);
+  background-image: url(img/iphone.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -190,7 +190,7 @@ section#section_plan .area .check {
   display: inline-block;
   position: relative;
   top: 6px;
-  background-image: url(http://iconshow.me/media/images/ui/ios7-icons/png/512/checkmark-outline.png);
+  background-image: url(img/checkmark-outline.png);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 25px;
