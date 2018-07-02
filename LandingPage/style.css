@@ -1,0 +1,209 @@
+* {
+  font-family: Noto Sans TC;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000px;
+  overflow-x: hidden;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #1bac83;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://images2.imgbox.com/d9/f2/Iqln6SGa_o.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #1bac83;
+}
+header.jumbotron span {
+  font-size: 40px;
+  color: #1bac83;
+}
+header.jumbotron .h1eng {
+  font-weight: 600;
+}
+header.jumbotron .h1ch {
+  font-weight: 300;
+}
+header.jumbotron h4 {
+  color: rgba(27, 172, 131, 0.8);
+  font-weight: 100;
+  font-size: 21px;
+  letter-spacing: 5px;
+}
+header.jumbotron .as {
+  width: 160px;
+}
+header.jumbotron .gp {
+  width: 160px;
+}
+header.jumbotron .button {
+  margin: 5px;
+  display: inline-block;
+  height: 40px;
+  background-color: #1bac83;
+  border-radius: 20px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+header.jumbotron .button .icon {
+  display: inline-block;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  top: -4px;
+}
+header.jumbotron .button:hover {
+  background-color: #168a69;
+}
+header.jumbotron .button span {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #fff;
+}
+header.jumbotron .iphone {
+  display: inline-block;
+  position: absolute;
+  top: -150px;
+  right: 0px;
+  height: 900px;
+  width: 100%;
+  background-image: url(https://images2.imgbox.com/6a/54/0sa5qJdV_o.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header.jumbotron .container {
+  color: #fff;
+  padding: 210px 0px;
+}
+
+section {
+  padding: 70px 0px;
+}
+
+section#section_ask {
+  background-color: #1bac83;
+}
+section#section_ask .intro h2 {
+  font-weight: 700;
+  font-size: 40px;
+  padding: 0px 20px 15px 20px;
+}
+section#section_ask .intro h4 {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 0px 20px;
+}
+
+section#section_about {
+  background-color: #efefef;
+}
+section#section_about .list {
+  padding: 0px 50px;
+}
+section#section_about .abicon {
+  display: inline-block;
+  text-align: center;
+  padding: 30px 20px;
+  width: 100%;
+  position: relative;
+}
+section#section_about h1 {
+  font-size: 38px;
+  font-weight: 300;
+  color: #1bac83;
+}
+section#section_about h2 {
+  font-size: 22px;
+  margin-top: 45px;
+}
+section#section_about p {
+  font-size: 20px;
+  font-weight: 300;
+}
+section#section_about hr {
+  border: solid 1px #ddd;
+}
+
+section#section_plan {
+  background-color: #1bac83;
+  box-sizing: border-box;
+}
+section#section_plan .area {
+  height: 500px;
+  background-color: #eee;
+  padding: 20px 30px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+section#section_plan .area h1 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+section#section_plan .area p {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 23px;
+  font-weight: 400;
+}
+section#section_plan .area .price {
+  font-size: 30px;
+  font-weight: bold;
+}
+section#section_plan .area hr {
+  border: solid 1px #ddd;
+  padding: 0px;
+  margin: 0px 0px 25px 0px;
+}
+section#section_plan .area span {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+section#section_plan .area .check {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  background-image: url(http://iconshow.me/media/images/ui/ios7-icons/png/512/checkmark-outline.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+section#section_bottom {
+  background-color: #111;
+  padding: 30px;
+}
+section#section_bottom p {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
