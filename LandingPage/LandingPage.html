@@ -8,10 +8,6 @@
 	<link rel="Shortcut Icon" type="image/x-icon" href="logo.png">
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 	<link rel='stylesheet prefetch' href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src='js/jquery-3.3.1.min.js'></script>
-	<script type="text/javascript" src='js/bootstrap.min.js'></script>
-	<script type="text/javascript" src='js/skrollr.min.js'></script>
 </head>
 <body>
 	<!-- Bootstrap 的導覽列結構寫法-->
@@ -131,5 +127,19 @@
 	    </div>
 	  </div>
 	</section>
+	<script type="text/javascript" src='js/jquery-3.3.1.min.js'></script>
+	<script type="text/javascript" src='js/bootstrap.min.js'></script>
+	<script type="text/javascript" src='js/skrollr.min.js'></script>
+	<script>
+	var s = skrollr.init();
+
+	$(window).scroll(function(evt){
+	  if($(window).scrollTop() > 0){
+	    $(".navbar").removeClass("navbar-top");
+	  }else{
+	    $(".navbar").addClass("navbar-top");
+	  }
+	});
+	</script>
 </body>
 </html>
