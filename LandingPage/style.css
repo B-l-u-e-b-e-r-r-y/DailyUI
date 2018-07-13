@@ -7,7 +7,7 @@
 
 body {
   height: 1000px;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
 }
 
 nav.navbar {
@@ -27,7 +27,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
 
 header.jumbotron {
   text-align: center;
-  background-image: url(img/background.jpg);
+  background-image: url(https://images2.imgbox.com/d9/f2/Iqln6SGa_o.jpg);
   background-size: cover;
   background-attachment: fixed;
   margin-bottom: 0px;
@@ -90,7 +90,7 @@ header.jumbotron .iphone {
   right: 0px;
   height: 900px;
   width: 100%;
-  background-image: url(img/iphone.png);
+  background-image: url(https://images2.imgbox.com/6a/54/0sa5qJdV_o.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -154,6 +154,7 @@ section#section_plan {
   box-sizing: border-box;
 }
 section#section_plan .area {
+  position: relative;
   height: 500px;
   background-color: #eee;
   padding: 20px 30px;
@@ -190,12 +191,29 @@ section#section_plan .area .check {
   display: inline-block;
   position: relative;
   top: 6px;
-  background-image: url(img/checkmark-outline.png);
+  background-image: url(http://iconshow.me/media/images/ui/ios7-icons/png/512/checkmark-outline.png);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 25px;
   width: 25px;
   margin-right: 5px;
+}
+section#section_plan .area button {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  transform: translate(50%, 0);
+  width: 50%;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: solid 1px #1bac83;
+  background: none;
+  color: #1bac83;
+  transition: 0.3s;
+}
+section#section_plan .area button:hover {
+  background-color: #1bac83;
+  color: white;
 }
 
 section#section_bottom {
